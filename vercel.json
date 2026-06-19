@@ -2,6 +2,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_19_Block1_DeadButtons.html" }
+    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_20_Header_ZF.html" }
   ]
 }
