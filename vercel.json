@@ -2,6 +2,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_13_Field_Measure_Restore.html" }
+    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_13_1_Mobile_Hotfix.html" }
   ]
 }
