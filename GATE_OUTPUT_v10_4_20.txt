@@ -1,0 +1,21 @@
+=== verify_measure.js — AN_BAMO_Command_Center_v10_4_20_Header_ZF.html ===
+  [PASS] LOAD ERRORS: 0
+  [PASS] TAB SWEEP: 0 errors across 9 tabs
+  [PASS] DASHBOARD RENDERS: len=2427
+  [PASS] MEASURE FIELDS: all 26 fields present (saved=true)
+  [INCONCLUSIVE] DOC RENDER: measureSheet113:closure(skip) | productionSheet113:closure(skip) | painterBlank113:closure(skip)
+
+Hard gates (LOAD ERRORS, TAB SWEEP, DASHBOARD RENDERS) must be PASS.
+MEASURE FIELDS / DOC RENDER may be INCONCLUSIVE under jsdom — confirm in real browser.
+
+=== Browser eval audit (390px + 1280px) ===
+  [PASS] state.appName = 'ZF' (one-time migration applied, _zfMigrated1420=true)
+  [PASS] #v1417-appname textContent = 'ZF'
+  [PASS] #v1417-mode display = 'none' (moved to menu)
+  [PASS] .v1417-bar flex-wrap = 'nowrap' (single row, all widths)
+  [PASS] Desktop 1280px singleRow=true: brand(18-78) | center(93-1171) | right(1186-1247)
+  [PASS] 'Версии / слепки' card display='none' on Заявка screen
+  [PASS] Menu items: 👁 Для клиента · 🔧 Внутренний · 📁 Открыть проект · 📷 Слепок + theme + standard
+  [PASS] v1420-mode tech=1 → state.ui.tech=true, modal closes
+  [PASS] v1420-mode tech=0 → state.ui.tech=false, modal closes
+  [PASS] window.__v1420 present
