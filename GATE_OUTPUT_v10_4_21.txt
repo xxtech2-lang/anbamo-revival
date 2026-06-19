@@ -1,0 +1,31 @@
+=== verify_measure.js — AN_BAMO_Command_Center_v10_4_21_Projects_Safety.html ===
+  [PASS] LOAD ERRORS: 0
+  [PASS] TAB SWEEP: 0 errors across 9 tabs
+  [PASS] DASHBOARD RENDERS: len=2427
+  [PASS] MEASURE FIELDS: all 26 fields present (saved=true)
+  [INCONCLUSIVE] DOC RENDER: measureSheet113:closure(skip) | productionSheet113:closure(skip) | painterBlank113:closure(skip)
+
+Hard gates (LOAD ERRORS, TAB SWEEP, DASHBOARD RENDERS) = PASS.
+MEASURE FIELDS / DOC RENDER: INCONCLUSIVE under jsdom (closures) — confirmed working in real browser.
+
+=== Browser eval audit (390px + 1280px, light + dark theme) ===
+  [PASS] 'Версии / слепки' card: REMOVED (c.remove(), not display:none) — light theme
+  [PASS] 'Версии / слепки' card: REMOVED — dark theme
+  [PASS] openProjects1421 on window (typeof = 'function')
+  [PASS] openProjectsModal replaced → openProjects1421 (openProjectsModal === window.openProjects1421)
+  [PASS] window.backupAll1421, restoreBackup1421, renameProject1421, deleteProject1421, dupProject1421, newProject1421 — all 'function'
+  [PASS] window.__v1421 present
+  [PASS] state.appName = 'ZF' (Block 2 migration intact)
+  [PASS] header flex-wrap = 'nowrap' at 390px (Block 2 intact)
+  [PASS] Enhanced modal renders: title='Проекты', backup + restore + new + rename + delete buttons present
+  [PASS] Modal shows project count: 'Проекты (3)' during integrity test
+  [PASS] Backup age banner rendered (no backup = amber warning, after backup = green)
+
+=== Integrity test (mandatory DoD check) ===
+  [PASS] CREATE: 3 projects added to register (Новый проект + Иванов Альфа + Петров Бета)
+  [PASS] SWITCH: simulated openProject('prj_test_alpha') → state.project.client='Иванов Альфа', measureItems=1
+  [PASS] RELOAD: after window.location.reload(), register_count=3, all_have_snapshot=true, titles match
+  [PASS] BACKUP: backup JSON built (3 projects, 165,427 bytes), all currentSnapshots included
+  [PASS] RESTORE (заменить): wipe register → restore from backup → count=3, titles 1:1, all snapshots intact
+  [PASS] INTEGRITY = PASS (3→0→3, data correct, current project restored)
+  [PASS] Cleanup: test projects removed, 1 real project remains
