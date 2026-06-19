@@ -2,6 +2,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_14_Price_And_Closing.html" }
+    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_15_Flex_And_Discount.html" }
   ]
 }

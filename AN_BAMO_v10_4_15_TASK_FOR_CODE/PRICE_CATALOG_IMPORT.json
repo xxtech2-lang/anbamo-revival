@@ -1,0 +1,956 @@
+[
+ {
+  "name": "ЛДСП корпусной белый 16 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 40.0,
+  "price": 88.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "ЛДСП корпусной белый 18 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 55.0,
+  "price": 121.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "ЛДСП влагостойкий 16 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 75.0,
+  "price": 165.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "ЛДСП влагостойкий 18 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 90.0,
+  "price": 198.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "ЛДСП Egger декор корпусной 18 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 95.0,
+  "price": 209.0,
+  "supplier": "AM / Egger",
+  "art": ""
+ },
+ {
+  "name": "ЛДСП Egger Feelwood корпусной 18 мм — AM",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 120.0,
+  "price": 264.0,
+  "supplier": "AM / Egger",
+  "art": ""
+ },
+ {
+  "name": "МДФ 16 мм под покраску / облицовку",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 70.0,
+  "price": 154.0,
+  "supplier": "AM / поставщик",
+  "art": ""
+ },
+ {
+  "name": "Материал корпуса другой / вручную",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 0.0,
+  "price": 0.0,
+  "supplier": "Вручную",
+  "art": ""
+ },
+ {
+  "name": "HDF белый 3 мм — задняя стенка",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 15.0,
+  "price": 33.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "HDF декор / цветной — задняя стенка",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 20.0,
+  "price": 44.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Задняя стенка ЛДСП 8–10 мм / усиленная",
+  "cat": "corpus",
+  "unit": "лист",
+  "cost": 35.0,
+  "price": 77.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Фасады ЛДСП AM, распил + кромка — стандарт",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 55.0,
+  "price": 66.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Фасады ЛДСП AM AirTec / лазерная кромка",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 75.0,
+  "price": 90.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Фасады МДФ эмаль плоские",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 75.0,
+  "price": 150.0,
+  "supplier": "Маляр / фасады",
+  "art": ""
+ },
+ {
+  "name": "Фасады МДФ эмаль фрезеровка / волна",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 140.0,
+  "price": 168.0,
+  "supplier": "Маляр / фасады",
+  "art": ""
+ },
+ {
+  "name": "Фасады шпон / натуральная облицовка",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 180.0,
+  "price": 216.0,
+  "supplier": "Поставщик / столярка",
+  "art": ""
+ },
+ {
+  "name": "Стеклянный фасад / фасад с витриной",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 120.0,
+  "price": 144.0,
+  "supplier": "Стекло / поставщик",
+  "art": ""
+ },
+ {
+  "name": "Фасад другой / вручную",
+  "cat": "facade",
+  "unit": "м²",
+  "cost": 0.0,
+  "price": 0.0,
+  "supplier": "Вручную",
+  "art": ""
+ },
+ {
+  "name": "Столешница HPL 38 мм — AM",
+  "cat": "countertop",
+  "unit": "м.п.",
+  "cost": 85.0,
+  "price": 97.75,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Столешница Compact HPL",
+  "cat": "countertop",
+  "unit": "м.п.",
+  "cost": 180.0,
+  "price": 207.0,
+  "supplier": "AM / поставщик",
+  "art": ""
+ },
+ {
+  "name": "Стеновая панель HPL / фартук",
+  "cat": "countertop",
+  "unit": "м²",
+  "cost": 60.0,
+  "price": 69.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Добор / кусок столешницы",
+  "cat": "countertop",
+  "unit": "м.п.",
+  "cost": 45.0,
+  "price": 51.75,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Кромка ABS белая 0,8 мм — AM",
+  "cat": "edge",
+  "unit": "м.п.",
+  "cost": 0.35,
+  "price": 0.77,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Кромка ABS белая 2 мм — AM",
+  "cat": "edge",
+  "unit": "м.п.",
+  "cost": 0.75,
+  "price": 1.65,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Кромка ABS декор 0,8 мм — AM",
+  "cat": "edge",
+  "unit": "м.п.",
+  "cost": 0.55,
+  "price": 1.21,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Кромка ABS декор 2 мм — AM",
+  "cat": "edge",
+  "unit": "м.п.",
+  "cost": 1.1,
+  "price": 2.42,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Кромка AirTec / лазерная — AM",
+  "cat": "edge",
+  "unit": "м.п.",
+  "cost": 1.8,
+  "price": 2.16,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Петля Riex NC50 накладная с доводчиком + планка H0",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 0.97,
+  "price": 2.13,
+  "supplier": "Hranipex",
+  "art": "F000003"
+ },
+ {
+  "name": "Петля Riex NC70 накладная с доводчиком",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 0.8788,
+  "price": 1.93,
+  "supplier": "Hranipex",
+  "art": "F000001"
+ },
+ {
+  "name": "Петля Riex NC70 полунакладная с доводчиком",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 0.9054,
+  "price": 1.99,
+  "supplier": "Hranipex",
+  "art": "F000008"
+ },
+ {
+  "name": "Петля Blum CLIP TOP BLUMOTION 155°",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 15.8455,
+  "price": 19.01,
+  "supplier": "Blum / Hranipex",
+  "art": "F005603"
+ },
+ {
+  "name": "Петля Blum стандартная / вручную",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 4.5,
+  "price": 9.9,
+  "supplier": "Blum / другой",
+  "art": ""
+ },
+ {
+  "name": "Blum AVENTOS HK-S TIP-ON, механизм C",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 19.5145,
+  "price": 23.42,
+  "supplier": "Blum / Hranipex",
+  "art": "F005587"
+ },
+ {
+  "name": "Blum AVENTOS HK-XS, механизм",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 21.7767,
+  "price": 26.13,
+  "supplier": "Blum / Hranipex",
+  "art": "F005660"
+ },
+ {
+  "name": "Газлифт / подъёмник стандартный",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 4.5,
+  "price": 9.9,
+  "supplier": "Hranipex / другой",
+  "art": ""
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=300 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 14.9051,
+  "price": 17.89,
+  "supplier": "Hranipex",
+  "art": "F000214"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=300 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 15.3348,
+  "price": 18.4,
+  "supplier": "Hranipex",
+  "art": "F000223"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=300 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 17.3092,
+  "price": 20.77,
+  "supplier": "Hranipex",
+  "art": "F000231"
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=350 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 15.3348,
+  "price": 18.4,
+  "supplier": "Hranipex",
+  "art": "F000215"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=350 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 15.8872,
+  "price": 19.06,
+  "supplier": "Hranipex",
+  "art": "F000224"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=350 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 18.6288,
+  "price": 22.35,
+  "supplier": "Hranipex",
+  "art": "F000232"
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=400 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 16.102,
+  "price": 19.32,
+  "supplier": "Hranipex",
+  "art": "F000216"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=400 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 16.6544,
+  "price": 19.99,
+  "supplier": "Hranipex",
+  "art": "F000225"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=400 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 18.2125,
+  "price": 21.85,
+  "supplier": "Hranipex",
+  "art": "F000233"
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=450 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 17.4831,
+  "price": 20.98,
+  "supplier": "Hranipex",
+  "art": "F000217"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=450 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 16.5992,
+  "price": 19.92,
+  "supplier": "Hranipex",
+  "art": "F000226"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=450 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 19.9812,
+  "price": 23.98,
+  "supplier": "Hranipex",
+  "art": "F000234"
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=500 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 16.813,
+  "price": 20.18,
+  "supplier": "Hranipex",
+  "art": "F000218"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=500 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 18.4166,
+  "price": 22.1,
+  "supplier": "Hranipex",
+  "art": "F000227"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=500 мм, белый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 20.817,
+  "price": 24.98,
+  "supplier": "Hranipex",
+  "art": "F000235"
+ },
+ {
+  "name": "Ящик RiexTrack, H=89 мм, L=500 мм, тёмно-серый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 16.813,
+  "price": 20.18,
+  "supplier": "Hranipex",
+  "art": "F000184"
+ },
+ {
+  "name": "Ящик RiexTrack, H=121 мм, L=500 мм, тёмно-серый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 19.3859,
+  "price": 23.26,
+  "supplier": "Hranipex",
+  "art": "F000193"
+ },
+ {
+  "name": "Ящик RiexTrack, H=185 мм, L=500 мм, тёмно-серый",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 20.817,
+  "price": 24.98,
+  "supplier": "Hranipex",
+  "art": "F000201"
+ },
+ {
+  "name": "Blum Tandembox Antaro / комплект 500 мм",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 45.0,
+  "price": 54.0,
+  "supplier": "Blum / Hranipex",
+  "art": ""
+ },
+ {
+  "name": "Blum Legrabox / комплект 500 мм",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 85.0,
+  "price": 102.0,
+  "supplier": "Blum / Hranipex",
+  "art": ""
+ },
+ {
+  "name": "Направляющие скрытого монтажа Riex 500 мм",
+  "cat": "hardware",
+  "unit": "пара",
+  "cost": 7.3486,
+  "price": 8.82,
+  "supplier": "Hranipex",
+  "art": "F000154"
+ },
+ {
+  "name": "Ящик / направляющие — другая позиция вручную",
+  "cat": "hardware",
+  "unit": "компл.",
+  "cost": 0.0,
+  "price": 0.0,
+  "supplier": "Вручную",
+  "art": ""
+ },
+ {
+  "name": "Ручка RiexTouch XH02, 128 мм, brushed nickel",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 2.1688,
+  "price": 4.77,
+  "supplier": "Hranipex",
+  "art": "F001227"
+ },
+ {
+  "name": "Ручка RiexTouch XH02, 160 мм, brushed nickel",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 2.4003,
+  "price": 5.28,
+  "supplier": "Hranipex",
+  "art": "F001228"
+ },
+ {
+  "name": "Профиль-ручка Riex VR30 P01, 18 мм, 2700 мм, алюминий",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 10.1789,
+  "price": 12.21,
+  "supplier": "Hranipex",
+  "art": "F007724"
+ },
+ {
+  "name": "Профиль-ручка Riex VR30 P03, 18 мм, 2500 мм, чёрный матовый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 8.9103,
+  "price": 10.69,
+  "supplier": "Hranipex",
+  "art": "F007736"
+ },
+ {
+  "name": "Профиль-ручка Riex VR30 P03, 18 мм, 2500 мм, белый матовый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 8.9103,
+  "price": 10.69,
+  "supplier": "Hranipex",
+  "art": "F007737"
+ },
+ {
+  "name": "Gola RiexTouch XG20 L-профиль 2900 мм, белый матовый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 15.0335,
+  "price": 18.04,
+  "supplier": "Hranipex",
+  "art": "F002285"
+ },
+ {
+  "name": "Gola RiexTouch XG20 L-профиль 2900 мм, чёрный матовый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 14.8843,
+  "price": 17.86,
+  "supplier": "Hranipex",
+  "art": "F002286"
+ },
+ {
+  "name": "Gola RiexTouch XG20 C-профиль 2900 мм, чёрный матовый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 18.813,
+  "price": 22.58,
+  "supplier": "Hranipex",
+  "art": "F002290"
+ },
+ {
+  "name": "Gola вертикальный боковой профиль 2900 мм, белый",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 31.828,
+  "price": 38.19,
+  "supplier": "Hranipex",
+  "art": "F002746"
+ },
+ {
+  "name": "Gola вертикальный боковой профиль 2900 мм, чёрный",
+  "cat": "hardware",
+  "unit": "шт.",
+  "cost": 31.7948,
+  "price": 38.15,
+  "supplier": "Hranipex",
+  "art": "F002747"
+ },
+ {
+  "name": "Профиль для шкафа-купе / раздвижной системы",
+  "cat": "hardware",
+  "unit": "м.п.",
+  "cost": 15.0,
+  "price": 18.0,
+  "supplier": "Hranipex / другой",
+  "art": ""
+ },
+ {
+  "name": "LED-профиль Riex EO10 накладной, 2 м, алюминий",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 3.1585,
+  "price": 3.79,
+  "supplier": "Hranipex",
+  "art": "F004438"
+ },
+ {
+  "name": "LED-профиль Riex EO11 накладной, 2 м, алюминий",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 5.1314,
+  "price": 6.16,
+  "supplier": "Hranipex",
+  "art": "F004441"
+ },
+ {
+  "name": "LED-профиль Riex EO30 врезной, 2 м, алюминий",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 3.3247,
+  "price": 3.99,
+  "supplier": "Hranipex",
+  "art": "F004453"
+ },
+ {
+  "name": "LED-профиль Riex EO20 угловой, 2 м, алюминий",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 6.8807,
+  "price": 8.26,
+  "supplier": "Hranipex",
+  "art": "F004447"
+ },
+ {
+  "name": "LED-лента Riex EL42, 12V, 6 W/m, neutral white, 5 м",
+  "cat": "led",
+  "unit": "рулон",
+  "cost": 12.7118,
+  "price": 15.25,
+  "supplier": "Hranipex",
+  "art": "F004681"
+ },
+ {
+  "name": "LED-лента Riex EL43, 12V, 12 W/m, warm white, 5 м",
+  "cat": "led",
+  "unit": "рулон",
+  "cost": 10.98,
+  "price": 13.18,
+  "supplier": "Hranipex",
+  "art": "F004682"
+ },
+ {
+  "name": "LED-драйвер Riex EL25, 24V, 30W",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 9.06,
+  "price": 10.87,
+  "supplier": "Hranipex",
+  "art": "F004350"
+ },
+ {
+  "name": "LED-драйвер Riex EL15, 12V, 60W",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 11.4856,
+  "price": 13.78,
+  "supplier": "Hranipex",
+  "art": "F004344"
+ },
+ {
+  "name": "Сенсор Riex EC34 взмах руки, 12/24V, silver",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 7.1065,
+  "price": 8.53,
+  "supplier": "Hranipex",
+  "art": "F003530"
+ },
+ {
+  "name": "Дверной сенсор Riex EC31, 12/24V, white",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 8.5213,
+  "price": 10.23,
+  "supplier": "Hranipex",
+  "art": "F003524"
+ },
+ {
+  "name": "Механический выключатель Riex EC44, 12/24V, black",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 2.1578,
+  "price": 2.59,
+  "supplier": "Hranipex",
+  "art": "F003540"
+ },
+ {
+  "name": "Диммер Riex EC51 Touch, 12/24V, 90W",
+  "cat": "led",
+  "unit": "шт.",
+  "cost": 10.5881,
+  "price": 12.71,
+  "supplier": "Hranipex",
+  "art": "F007929"
+ },
+ {
+  "name": "Провод / коннектор LED / мелкая электрика",
+  "cat": "led",
+  "unit": "компл.",
+  "cost": 5.0,
+  "price": 11.0,
+  "supplier": "Hranipex / вручную",
+  "art": ""
+ },
+ {
+  "name": "Ножка кухонная Riex GK50, 60 мм",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.5524,
+  "price": 1.22,
+  "supplier": "Hranipex",
+  "art": "F000339"
+ },
+ {
+  "name": "Ножка кухонная Riex GK50, 100 мм",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.6036,
+  "price": 1.33,
+  "supplier": "Hranipex",
+  "art": "F000341"
+ },
+ {
+  "name": "Ножка кухонная Riex GK50, 150 мм",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.7024,
+  "price": 1.55,
+  "supplier": "Hranipex",
+  "art": "F000343"
+ },
+ {
+  "name": "Клипса цоколя Riex GK50 для кухонной ножки",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.0573,
+  "price": 0.13,
+  "supplier": "Hranipex",
+  "art": "F002927"
+ },
+ {
+  "name": "Клипса цоколя Riex GK30/GK33",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.0296,
+  "price": 0.07,
+  "supplier": "Hranipex",
+  "art": "F000937"
+ },
+ {
+  "name": "Сушка для посуды Riex GU16, 500 мм, 2 полки",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 9.2213,
+  "price": 11.07,
+  "supplier": "Hranipex",
+  "art": "F001221"
+ },
+ {
+  "name": "Сушка для посуды Riex GU16, 600 мм, 2 полки",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 11.0893,
+  "price": 13.31,
+  "supplier": "Hranipex",
+  "art": "F001222"
+ },
+ {
+  "name": "Сушка для посуды Riex GU16, 800 мм, 2 полки",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 14.056,
+  "price": 16.87,
+  "supplier": "Hranipex",
+  "art": "F001224"
+ },
+ {
+  "name": "Лоток для приборов RiexTrack, W276, 500 мм, тёмно-серый",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 29.4204,
+  "price": 35.3,
+  "supplier": "Hranipex",
+  "art": "F000696"
+ },
+ {
+  "name": "Лоток для приборов RiexTrack, W276, 500 мм, чёрный",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 29.4204,
+  "price": 35.3,
+  "supplier": "Hranipex",
+  "art": "F000699"
+ },
+ {
+  "name": "Гардеробная штанга Ø25 мм",
+  "cat": "extra",
+  "unit": "м.п.",
+  "cost": 4.5,
+  "price": 9.9,
+  "supplier": "Hranipex / другой",
+  "art": ""
+ },
+ {
+  "name": "Держатель штанги Ø25 мм",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 1.0,
+  "price": 2.2,
+  "supplier": "Hranipex / другой",
+  "art": ""
+ },
+ {
+  "name": "Корзина / выдвижной органайзер — вручную",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.0,
+  "price": 0.0,
+  "supplier": "Hranipex / вручную",
+  "art": ""
+ },
+ {
+  "name": "Конфирматы / шурупы / саморезы",
+  "cat": "extra",
+  "unit": "компл.",
+  "cost": 8.0,
+  "price": 17.6,
+  "supplier": "Hranipex / склад",
+  "art": ""
+ },
+ {
+  "name": "Полкодержатели стандартные",
+  "cat": "extra",
+  "unit": "шт.",
+  "cost": 0.2,
+  "price": 0.44,
+  "supplier": "Hranipex / склад",
+  "art": ""
+ },
+ {
+  "name": "Заглушки / наклейки под цвет",
+  "cat": "extra",
+  "unit": "компл.",
+  "cost": 4.0,
+  "price": 8.8,
+  "supplier": "Hranipex",
+  "art": ""
+ },
+ {
+  "name": "Демпферы / отбойники",
+  "cat": "extra",
+  "unit": "компл.",
+  "cost": 3.0,
+  "price": 6.6,
+  "supplier": "Hranipex",
+  "art": ""
+ },
+ {
+  "name": "Клей / силикон / монтажные расходники",
+  "cat": "extra",
+  "unit": "компл.",
+  "cost": 10.0,
+  "price": 22.0,
+  "supplier": "Склад / магазин",
+  "art": ""
+ },
+ {
+  "name": "Еврозапил столешницы",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 45.0,
+  "price": 54.0,
+  "supplier": "AM / подрядчик",
+  "art": ""
+ },
+ {
+  "name": "Врезка мойки / техники в столешницу",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 25.0,
+  "price": 30.0,
+  "supplier": "AM / подрядчик",
+  "art": ""
+ },
+ {
+  "name": "Сторонний раскрой / кромление",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 50.0,
+  "price": 60.0,
+  "supplier": "AM / подрядчик",
+  "art": ""
+ },
+ {
+  "name": "Внешняя доставка поставщика AM",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 35.0,
+  "price": 35.0,
+  "supplier": "AM",
+  "art": ""
+ },
+ {
+  "name": "Внешняя доставка поставщика Hranipex",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 15.0,
+  "price": 15.0,
+  "supplier": "Hranipex",
+  "art": ""
+ },
+ {
+  "name": "Помощник на объекте, 1 день",
+  "cat": "service",
+  "unit": "усл.",
+  "cost": 80.0,
+  "price": 96.0,
+  "supplier": "Внешний / свой",
+  "art": ""
+ },
+ {
+  "name": "Ручная позиция / другое",
+  "cat": "service",
+  "unit": "шт.",
+  "cost": 0.0,
+  "price": 0.0,
+  "supplier": "Вручную",
+  "art": ""
+ }
+]
