@@ -1,0 +1,29 @@
+=== verify_measure.js — AN_BAMO_Command_Center_v10_4_17_Clean_Header.html ===
+  [PASS] LOAD ERRORS: 0
+  [PASS] TAB SWEEP: 0 errors across 9 tabs
+  [PASS] DASHBOARD RENDERS: len=2427
+  [PASS] MEASURE FIELDS: all 26 fields present (saved=true)
+  [INCONCLUSIVE] DOC RENDER: measureSheet113:closure(skip) | productionSheet113:closure(skip) | painterBlank113:closure(skip)
+
+Hard gates (LOAD ERRORS, TAB SWEEP, DASHBOARD RENDERS) must be PASS.
+MEASURE FIELDS / DOC RENDER may be INCONCLUSIVE under jsdom (closures) — confirm those in a real browser.
+
+Real browser verification (Chromium, preview server):
+  [PASS] No console errors
+  [PASS] .toprow display:none — legacy #topSub/#saveState/#modeBtn/#themeBtn hidden, still in DOM
+  [PASS] #v1417-bar injected; v1417-appname="Замена фасадов"; v1417-proj-name="Новый проект"
+  [PASS] Status pill class=v1417-status-warn, text="проверить"
+  [PASS] 👁/🔧 mode toggle: tech=false→👁, tech=true→🔧, state.ui.tech updates, toast fires
+  [PASS] Status pill click → warnings modal ("Проверка") with .notice elements
+  [PASS] ⋯ menu modal: theme chips, Настройки, О программе, Экспорт — all present
+  [PASS] О программе → title "О программе", version "v10.4.17", company "AN BAMO", appName "Замена фасадов"
+  [PASS] Project pill click → projects modal opens (v10.4.12.3 layout)
+  [PASS] Save flash: markDirty() removes .show, saveNow() adds .show (flashes ✓)
+  [PASS] Topbar sticky: top=0 after scroll 400px (desktop)
+  [PASS] Desktop 1280px: single row — brand/center/right all aligned top; centerOrder=2
+  [PASS] Mobile 375px: 2 rows — Row1: logo+appname+mode+menu; Row2: project+status
+  [PASS] "offline-ready" pill hidden (inside .toprow, display:none)
+  [PASS] No version number in visible header
+  [PASS] KP document contains company name "AN BAMO" from state.settings.company
+  [PASS] Settings pane: .v1417-settings-block injected with company.name="AN BAMO", appName="Замена фасадов"
+  [INCONCLUSIVE] Screenshots: preview tool visual output confirmed (screenshots captured)
