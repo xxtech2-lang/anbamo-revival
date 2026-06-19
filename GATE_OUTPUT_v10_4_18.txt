@@ -1,0 +1,9 @@
+=== verify_measure.js — AN_BAMO_Command_Center_v10_4_18_Critical_Fixes.html ===
+  [PASS] LOAD ERRORS: 0
+  [PASS] TAB SWEEP: 0 errors across 9 tabs
+  [PASS] DASHBOARD RENDERS: len=2427
+  [PASS] MEASURE FIELDS: all 26 fields present (saved=true)
+  [INCONCLUSIVE] DOC RENDER: measureSheet113:closure(skip) | productionSheet113:closure(skip) | painterBlank113:closure(skip)
+
+Hard gates (LOAD ERRORS, TAB SWEEP, DASHBOARD RENDERS) must be PASS.
+MEASURE FIELDS / DOC RENDER may be INCONCLUSIVE under jsdom (closures) — confirm those in a real browser.
