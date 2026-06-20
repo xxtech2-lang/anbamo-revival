@@ -2,6 +2,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_21_Projects_Safety.html" }
+    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_21b_Projects_Fix.html" }
   ]
 }

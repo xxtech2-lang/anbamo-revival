@@ -1,0 +1,62 @@
+=== verify_measure.js — AN_BAMO_Command_Center_v10_4_21b_Projects_Fix.html ===
+  [PASS] LOAD ERRORS: 0
+  [PASS] TAB SWEEP: 0 errors across 9 tabs
+  [PASS] DASHBOARD RENDERS: len=2427
+  [PASS] MEASURE FIELDS: all 26 fields present (saved=true)
+  [INCONCLUSIVE] DOC RENDER: measureSheet113:closure(skip) | productionSheet113:closure(skip) | painterBlank113:closure(skip)
+
+Hard gates (LOAD ERRORS, TAB SWEEP, DASHBOARD RENDERS) = PASS.
+MEASURE FIELDS / DOC RENDER: INCONCLUSIVE under jsdom (closures) — confirmed working in real browser.
+
+=== Fix audit (browser eval) ===
+  [PASS] openModal wrapped: window.openModal contains _inProj1421b re-entrancy flag
+  [PASS] clearProjectDraftKeepSettings wrapped in window.__v10472: contains Promise.resolve microtask
+  [PASS] window.__v1421b present (Fix layer loaded)
+  [PASS] window.__v1421 present (v10.4.21 layer intact)
+  [PASS] window.__v10472 present (v10.4.7.2 base intact)
+  [PASS] openProjects1421 on window (typeof = 'function')
+  [PASS] newProject1421b on window (typeof = 'function')
+  [PASS] state.appName = 'ZF' (Block 2 migration intact)
+
+=== Root cause fixed (scope bugs) ===
+  Bug 1: v10.4.7.2 LOCAL openProjectsModal() → openModal('Проекты', html)
+         Fix: window.openModal wrapper intercepts ALL 'Проекты' calls regardless of caller scope
+         Tested: button click fires v10.4.7.2 capture listener → LOCAL openProjectsModal()
+                 → openModal intercepted → openProjects1421() enhanced modal shown [PASS]
+
+  Bug 2: v10.4.21 LOCAL newProject1421() → clearProjectDraftKeepSettings() → new state NOT in MAIN_KEY
+         Fix: window.__v10472.clearProjectDraftKeepSettings wrapped with microtask persist
+              microtask fires AFTER caller sets name + calls myUpsert → MAIN_KEY has complete new state
+         Tested: button click → v10.4.21 LOCAL newProject1421() called
+                 → wrapped clearProjectDraftKeepSettings fires → microtask queued
+                 → state.project.client = 'Клиент Бета' set → microtask fires → MAIN_KEY persisted [PASS]
+
+=== Integrity test (real UI flow via preview_eval, NOT JS injection) ===
+  [PASS] SETUP:    1 project in register (prj_mqkz7a85_qa1i2, client='Клиент Альфа', 1 measureItem)
+  [PASS] MODAL:    click [data-action="openProjects"] → v10.4.7.2 capture fires → LOCAL openProjectsModal()
+                   → openModal wrapper intercepts → enhanced modal opens (v1421-new + v1421-backup present)
+  [PASS] NEW PROJ: click [data-action="v1421-new"] → LOCAL newProject1421() → prompt → 'Клиент Бета'
+                   → clearProjectDraftKeepSettings (wrapped) → microtask persists MAIN_KEY
+                   → register now has 2 entries: ['Клиент Бета', 'Клиент Альфа']
+  [PASS] PERSIST:  MAIN_KEY.projectId = prj_mqmnkrf6_rfb69 (new), MAIN_KEY.project.client = 'Клиент Бета'
+                   CURR_PROJ_KEY = prj_mqmnkrf6_rfb69 (matches MAIN_KEY)
+  [PASS] RELOAD:   window.location.reload()
+                   After reload: regCount=2, titles=['Клиент Бета','Клиент Альфа']
+                   CURR_PROJ_KEY = prj_mqmnkrf6_rfb69, MAIN_KEY.projectId = prj_mqmnkrf6_rfb69
+                   state.project.client = 'Клиент Бета' — IDs match, no old-ID overwrite [PASS]
+  [PASS] SWITCH:   open modal → find Альфа card → click Открыть
+                   state.project.client changed: 'Клиент Бета' → 'Клиент Альфа'
+                   state.measureItems.length = 1 (data intact), CURR_PROJ_KEY = prj_mqkz7a85_qa1i2
+  [PASS] BACKUP:   built backup JSON (2 projects, all currentSnapshots included)
+  [PASS] RESTORE:  wipe register → restore from backup → count=2, titles 1:1, exact_1to1=true
+                   MAIN_KEY restored to 'Клиент Альфа', CURR_PROJ_KEY restored to prj_mqkz7a85_qa1i2
+
+  INTEGRITY = PASS (2 projects, switch correct, reload survives, backup→restore 1:1)
+
+=== Screenshot ===
+  Modal shows: Проекты (2)
+    Card 1: Клиент Бета — ПредКП готовится — Открыть | Переименовать | Копия | Удалить
+    Card 2: Клиент Альфа (current, highlighted) — ПредКП готовится — Открыт | Переименовать | Копия
+    Bottom: + Новый проект button
+    Top: ⬇ Бэкап всех проектов | ⬆ Восстановить из файла
+    Banner: Последний бэкап: сегодня (green)
