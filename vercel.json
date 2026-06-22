@@ -2,6 +2,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_23_Core_Engine_Fast.html" }
+    { "source": "/", "destination": "/AN_BAMO_Command_Center_v10_4_23_1_Model_Fix.html" }
   ]
 }

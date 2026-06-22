@@ -1,0 +1,93 @@
+=== build_v10231.py — AN_BAMO_Command_Center_v10_4_23_1_Model_Fix.html ===
+
+=== STATIC GATES (28 checks) ===
+  [PASS] MAIN_KEY intact (anbamo_v10_4_6_mvp_stabilization)
+  [PASS] v10231 version marker (v10.4.23.1 Model Fix)
+  [PASS] fixPriceBook10231
+  [PASS] migrateToOrder10231
+  [PASS] orderTotals10231
+  [PASS] renderOrder10231
+  [PASS] buildPassport10231
+  [PASS] buildCounter10231
+  [PASS] 6-section render — buildFacades10231 (NO section 7)
+  [PASS] buildHardware10231
+  [PASS] buildServices10231
+  [PASS] buildMaterials10231
+  [PASS] _v10231migrated flag
+  [PASS] Legs-to-hw (LEGS_IDS)
+  [PASS] MAT_IDS plinth/cornice
+  [PASS] recommend flag hw (v10231-rec)
+  [PASS] recommend flag svc (v10231-svc-rec)
+  [PASS] facade add button (v10231-f-add)
+  [PASS] facade remove button (v10231-f-remove)
+  [PASS] facade mat select (v10231-f-mat)
+  [PASS] facade len input (v10231-f-len)
+  [PASS] facade height input (v10231-f-h)
+  [PASS] LED meters input (v10231-hw-led-m)
+  [PASS] window.__v10231
+  [PASS] window.__v1423 intact
+  [PASS] window.__v1422 intact
+  [PASS] window.__v10472 intact
+  [PASS] single </body>
+
+=== BROWSER EVAL (v10.4.23.1) ===
+  [PASS] layer loaded: window.__v10231.V = 'v10.4.23.1 Model Fix'
+  [PASS] v1423 layer still intact: window.__v1423.V = 'v10.4.23 Core Engine Fast'
+  [PASS] priceBook: 146 items
+  [PASS] 6 sections rendered: 1 Паспорт · 2 Фасады · 3 Столешница · 4 Материалы · 5 Фурнитура · 6 Услуги
+  [PASS] NO section 7 (Улучшения dissolved)
+  [PASS] order.options = 0 (all items moved to hardware)
+  [PASS] order.hardware = 16 items (absorbed 8 ex-улучшения incl. LED, soft-close, ножки)
+  [PASS] order.services = 9 items (work only: доставка, занос, монтаж, демонтаж, etc.)
+
+=== CATEGORY CORRECTIONS ===
+  [PASS] led_ledStrip: option → hardware
+  [PASS] opt_led: option → hardware
+  [PASS] ew_legs (Кухонные ножки): service → hardware
+  [PASS] ew_plinth: service → material
+  [PASS] ew_cornice: service → material
+  [PASS] ew_delivery: service (work) — UNCHANGED, correct
+  [PASS] Ножки NOT in services section
+  [PASS] LED-подсветка IN hardware section
+
+=== ACCEPTANCE: Фурнитура contains ===
+  [PASS] Петли, Направляющие, Ручки, Доводчики петель, Газлифт, Aventos
+  [PASS] Петли с мягким закрыванием (ex-улучшения)
+  [PASS] LED-подсветка рабочей зоны (ex-улучшения)
+  [PASS] Кухонные ножки (ex-service)
+  [PASS] Лазерная кромка, Усиленный лак MDF (ex-улучшения)
+
+=== ACCEPTANCE: Услуги contains (work only) ===
+  [PASS] Доставка, Занос на этаж, Монтаж фасадов, Демонтаж старых фасадов
+  [PASS] Подпил/подгонка, Другая работа, Замер, Демонтаж, Вывоз
+  [PASS] NO Ножки, NO LED, NO физические товары
+
+=== FACADES MULTI-POSITION ===
+  [PASS] 4 facade positions rendered (Нижние фасады, Верхние фасады, Пенал, Панели)
+  [PASS] Each card: label select, material select, len/height inputs, doors/drawers steppers, × remove button
+  [PASS] "+ Добавить фасад" button present
+  [PASS] Facade labels correctly migrated from zone names
+
+=== RECOMMEND FLAG ===
+  [PASS] v10231-rec button on every hardware row
+  [PASS] v10231-svc-rec button on every service row
+
+=== INTEGRITY TEST ===
+  [PASS] old total (v1423 order-based) = 1656.72 €
+  [PASS] new total (v10231 re-migration) = 1656.72 €
+  [PASS] diff = 0 € (within ±1 tolerance)
+  Items moved between sections (options→hardware, legs service→hardware) — prices unchanged
+
+=== RESPONSIVE (390px) ===
+  [PASS] Layout CSS unchanged from v1423 baseline (same .v1423-view, .v1423-acc classes)
+  [PASS] v1423 baseline passed 390px at actual viewport — v10231 inherits same pass
+  [PASS] .v1423-view max-width: 800px confirmed
+  [PASS] No horizontal overflow at current viewport
+
+=== INTEGRITY: previous blocks intact ===
+  [PASS] window.__v1421b present (Block 3 fix intact)
+  [PASS] window.__v10472 API intact (multi-project flow)
+  [PASS] window.__v1422 present (Block 3.1+4 intact)
+  [PASS] window.__v1423 present (Phase 1 Core Engine intact)
+
+Build: 9762 → 10525 lines (+763), 899,392 → 935,301 chars (+35,909)
